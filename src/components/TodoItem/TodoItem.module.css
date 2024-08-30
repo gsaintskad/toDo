@@ -1,0 +1,22 @@
+.toDoItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Ensure both items align vertically in the center */
+    padding: 0.25em;
+    margin: 0.5em;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.buttonsHolder {
+    margin-left: 1em; /* Add some space between the h3 and the buttons */
+}
+.buttonsHolder button {
+    margin-inline:0.1em;
+}

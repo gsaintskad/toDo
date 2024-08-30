@@ -1,0 +1,14 @@
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  font-family: "montserrat";
+  display: flex;
+  flex-direction: column;
+}
+h1{
+
+  font-weight: bold;
+}
