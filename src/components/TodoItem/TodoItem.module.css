@@ -1,4 +1,4 @@
-.toDoItem {
+.mainDiv{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,17 +6,46 @@
     padding: 0.25em;
     margin: 0.5em;
     border-radius: 5px;
+}
+.doneItem {
+    background-color: rgba(60, 209, 52, 0.53);
+}
+.toDoItem {
     background-color: rgba(255, 255, 255, 0.25);
 }
 
 h2 {
     margin: 0;
     padding: 0;
+    margin-inline-start: 0.5em;
 }
 
 .buttonsHolder {
     margin-left: 1em; /* Add some space between the h3 and the buttons */
 }
 .buttonsHolder button {
-    margin-inline:0.1em;
+    margin-inline: 0.1em;
+}
+.todoNameHolder {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.toDoItemDoneIcon {
+    color: rgb(0, 147, 20);
+}
+.toDoItemDeleteIcon {
+    color: rgb(193, 15, 15);
+}
+.toDoIcon {
+    color: rgb(0, 137, 147);
+}
+.toDoIconSize {
+    font-size: 1.8rem;
+}
+.toDoButton {
+    background-color: rgba(255, 255, 255, 0.07);
+    border: none;
+    padding: 0;
+    margin: 0;
 }

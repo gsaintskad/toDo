@@ -1,14 +1,29 @@
 #root {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  color: white;
-  font-family: "montserrat";
-  display: flex;
-  flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'montserrat';
+    display: flex;
+    flex-direction: column;
 }
-h1{
-
-  font-weight: bold;
+h1 {
+    font-weight: bold;
+}
+.buttonsHolder {
+    display: flex;
+    margin: 0 auto;
+}
+.buttonsHolder button {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    background-color: rgb(255, 244, 100);
+    border: none;
+    margin: 0.25em;
+    border-radius: 5px;
 }
